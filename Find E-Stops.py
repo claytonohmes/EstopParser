@@ -13,7 +13,7 @@ print(os.getcwd())
 
 #for pagenum in range(len(reader.pages)):
 #    print(reader.pages[pagenum].extract_text())
-'''
+
 pdf1File = open('meetingminutes1.pdf', 'rb')
 pdf2File = open('meetingminutes2.pdf', 'rb')
 reader1 = PyPDF2.PdfReader(pdf1File)
@@ -33,4 +33,3 @@ writer.write(outputFile)
 outputFile.close()
 pdf1File.close()
 pdf2File.close()
-'''
